@@ -9,7 +9,7 @@ scale =0.5#change scale when picture or camera changed
 save_image_bool=False#determines which method of passing the image to prediction, by file or directly
 remove_shadow = False
 path_to_sample = 'cardboard_5.jpg'
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 cap.set(10, 160)
 cap.set(3, 1920)
 cap.set(4, 1080)
